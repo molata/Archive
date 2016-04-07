@@ -11,10 +11,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="system" Type="Folder">
-			<Item Name="add_Control_panel.vi" Type="VI" URL="../quickdrop Plugin/add_Control_panel.vi"/>
+			<Item Name="add_Control_Panel.vi" Type="VI" URL="../quickdrop Plugin/add_Control_Panel.vi"/>
 			<Item Name="autoNode.vi" Type="VI" URL="../quickdrop Plugin/autoNode.vi"/>
 		</Item>
 		<Item Name="Excel.lvclass" Type="LVClass" URL="../resources/_excel/Excel.lvclass"/>
+		<Item Name="sort_Controls_Column.vi" Type="VI" URL="../quickdrop Plugin/sort_Controls_Column.vi"/>
+		<Item Name="test_Add_Conpane.vi" Type="VI" URL="../quickdrop Plugin/test_Add_Conpane.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
