@@ -11,6 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Excel.lvclass" Type="LVClass" URL="../resources/_excel/Excel.lvclass"/>
+		<Item Name="List.lvclass" Type="LVClass" URL="../resources/_list/List.lvclass"/>
+		<Item Name="List_UI.lvclass" Type="LVClass" URL="../_ui/_list_UI/List_UI.lvclass"/>
+		<Item Name="Record.lvclass" Type="LVClass" URL="../resources/_record/Record.lvclass"/>
 		<Item Name="机电学院档案管理系统.mdj" Type="Document" URL="../uml/机电学院档案管理系统.mdj"/>
 		<Item Name="学籍档案模板.xlsx" Type="Document" URL="../resources/_excel/学籍档案模板.xlsx"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -22,6 +25,7 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
